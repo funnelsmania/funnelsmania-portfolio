@@ -1,9 +1,9 @@
 import Button from './Button';
 
 export default function CTASection({
-  title = 'Ready to grow your ecommerce business?',
-  description = 'Book a free consultation and discover how FunnelsMania can transform your Shopify store and automate your workflows.',
-  primaryLabel = 'Book a Free Consultation',
+  title = 'Ready to optimize and automate your Shopify store?',
+  description = 'Book a free strategy call and discover how Shopify optimization and AI automation can help your brand scale.',
+  primaryLabel = 'Book a Free Strategy Call',
   primaryTo = '/contact',
   secondaryLabel = 'View Pricing',
   secondaryTo = '/pricing',

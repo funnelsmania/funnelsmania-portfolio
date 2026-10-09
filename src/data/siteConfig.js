@@ -1,13 +1,15 @@
 export const siteConfig = {
   name: 'FunnelsMania',
-  tagline: 'Shopify Development & Ecommerce Automation',
+  tagline: 'Shopify + AI Automation for Ecommerce Growth',
+  founderName: 'Bhavin Shah',
+  founderTitle: 'Founder & Ecommerce Automation Consultant',
   email: 'hello@funnelsmania.com',
   whatsapp: '+91 7600482475',
   whatsappLink: 'https://wa.me/917600482475',
-  calendlyLink: 'https://calendly.com/funnelsmania/consultation',
+  calendlyLink: 'https://calendly.com/funnelsmania-ai/30min',
+  primaryCta: 'Book a Free Strategy Call',
   social: {
-    linkedin: 'https://linkedin.com/company/funnelsmania',
-    twitter: 'https://twitter.com/funnelsmania',
+    linkedin: 'https://www.linkedin.com/in/funnels-mania/',
   },
 };
 
@@ -22,33 +24,33 @@ export const navLinks = [
 
 export const pageMeta = {
   home: {
-    title: 'FunnelsMania | Shopify Development & Ecommerce Automation',
+    title: 'FunnelsMania | Shopify + AI Automation for Ecommerce Growth',
     description:
-      'Grow your ecommerce brand with expert Shopify development, N8N automation, and AI-powered business workflows. Store setup, optimization, and consulting.',
+      'Bhavin Shah helps ecommerce brands scale with Shopify optimization, AI automation, and growth consulting. Book a free strategy call.',
   },
   services: {
     title: 'Services | FunnelsMania',
     description:
-      'Shopify store setup, custom development, N8N automation, AI workflows, and ecommerce growth consulting for modern brands.',
+      'Shopify optimization, AI automation, growth consulting, and conversion systems for ecommerce brands ready to scale.',
   },
   pricing: {
     title: 'Pricing | FunnelsMania',
     description:
-      'Transparent pricing for Shopify development and automation services. Starter, Growth, and Premium plans to fit your business stage.',
+      'Transparent pricing for Shopify development and automation services. Starter, Growth, and Premium plans.',
   },
   testimonials: {
-    title: 'Testimonials | FunnelsMania',
+    title: 'Why Work With Me | FunnelsMania',
     description:
-      'See what brands say about working with FunnelsMania for Shopify development, automation, and ecommerce growth.',
+      'Learn about my approach, expertise, and what to expect when working with FunnelsMania for Shopify and AI automation.',
   },
   about: {
-    title: 'About | FunnelsMania',
+    title: 'About Bhavin Shah | FunnelsMania',
     description:
-      'FunnelsMania is a modern ecommerce and automation consulting business helping brands grow with Shopify, AI, and intelligent workflows.',
+      'Meet Bhavin Shah — Founder & Ecommerce Automation Consultant helping Shopify brands grow smarter with AI and automation.',
   },
   contact: {
     title: 'Contact | FunnelsMania',
     description:
-      'Get in touch with FunnelsMania. Book a consultation, send us an email, or reach out on WhatsApp to start your ecommerce journey.',
+      'Book a free strategy call with Bhavin Shah. Get in touch via email, WhatsApp, or Calendly.',
   },
 };

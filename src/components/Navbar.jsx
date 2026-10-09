@@ -48,7 +48,7 @@ export default function Navbar() {
             ))}
           </ul>
           <Button to="/contact" className="navbar__cta" onClick={closeMenu}>
-            Book a Call
+            {siteConfig.primaryCta}
           </Button>
         </nav>
 

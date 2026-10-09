@@ -1,130 +1,108 @@
-export const services = [
+export const coreServices = [
   {
-    id: 'shopify-setup',
-    title: 'Shopify Store Setup',
+    id: 'shopify-optimization',
+    title: 'Shopify Optimization',
     description:
-      'Launch a conversion-ready Shopify store with the right theme, apps, and structure from day one.',
+      'Improve store performance, conversion paths, and the overall buying experience on your Shopify store.',
     icon: 'store',
-    features: [
-      'Theme selection and customization',
-      'Product catalog and collection setup',
-      'Payment and shipping configuration',
-      'Essential app integration',
+    helpWith: [
+      'Theme and UX improvements',
+      'Speed and performance optimization',
+      'Checkout and cart enhancements',
+      'App stack review and cleanup',
+    ],
+  },
+  {
+    id: 'ai-automation',
+    title: 'AI Automation',
+    description:
+      'Deploy AI-powered workflows that handle repetitive tasks — from customer support to content and order routing.',
+    icon: 'ai',
+    helpWith: [
+      'AI chatbot and support automation',
+      'Content generation workflows',
+      'Smart order and inventory routing',
+      'Intelligent data processing',
+    ],
+  },
+  {
+    id: 'growth-consulting',
+    title: 'Growth Consulting',
+    description:
+      'Strategic guidance on scaling your ecommerce brand through data-driven funnel and retention strategies.',
+    icon: 'growth',
+    helpWith: [
+      'Conversion rate analysis',
+      'Funnel and retention strategy',
+      'KPI tracking and reporting',
+      'Growth roadmap planning',
+    ],
+  },
+  {
+    id: 'conversion-systems',
+    title: 'Conversion Systems',
+    description:
+      'Build landing pages, funnels, and automated systems designed to turn traffic into repeat customers.',
+    icon: 'code',
+    helpWith: [
+      'Custom Shopify sections and pages',
+      'n8n workflow automation',
+      'CRM and email integrations',
+      'End-to-end conversion funnels',
+    ],
+  },
+];
+
+// Extended services for the Services page
+export const allServices = [
+  ...coreServices,
+  {
+    id: 'n8n-automation',
+    title: 'n8n Workflow Automation',
+    description:
+      'Connect your tools and automate cross-platform workflows with custom n8n integrations.',
+    icon: 'automation',
+    helpWith: [
+      'Order and inventory sync',
+      'Multi-platform data pipelines',
+      'CRM and email automation',
+      'Custom webhook workflows',
     ],
   },
   {
     id: 'shopify-development',
     title: 'Shopify Development',
     description:
-      'Custom Shopify themes, sections, and Liquid development tailored to your brand and growth goals.',
-    icon: 'code',
-    features: [
+      'Custom theme development, Liquid customization, and technical Shopify builds.',
+    icon: 'consulting',
+    helpWith: [
       'Custom theme development',
       'Section and block customization',
-      'Checkout and cart enhancements',
-      'Performance-focused builds',
-    ],
-  },
-  {
-    id: 'shopify-consulting',
-    title: 'Shopify Consulting',
-    description:
-      'Strategic guidance on store architecture, tech stack, and best practices to maximize your Shopify investment.',
-    icon: 'consulting',
-    features: [
-      'Store audit and roadmap',
-      'App stack optimization',
-      'Conversion rate analysis',
+      'API and app integrations',
       'Technical architecture review',
     ],
-  },
-  {
-    id: 'n8n-automation',
-    title: 'N8N Automation',
-    description:
-      'Connect your tools and automate repetitive workflows with powerful N8N integrations and custom flows.',
-    icon: 'automation',
-    features: [
-      'Order and inventory sync',
-      'CRM and email automation',
-      'Multi-platform data pipelines',
-      'Custom webhook workflows',
-    ],
-  },
-  {
-    id: 'ai-automation',
-    title: 'AI Workflow Automation',
-    description:
-      'Deploy AI-powered automations for customer support, content generation, and intelligent business operations.',
-    icon: 'ai',
-    features: [
-      'AI chatbot integration',
-      'Automated content workflows',
-      'Smart order routing',
-      'Predictive analytics setup',
-    ],
-  },
-  {
-    id: 'ecommerce-growth',
-    title: 'Ecommerce Growth Strategy',
-    description:
-      'Data-driven growth consulting to scale revenue through funnel optimization, retention, and acquisition.',
-    icon: 'growth',
-    features: [
-      'Funnel analysis and optimization',
-      'Retention and LTV strategy',
-      'Paid and organic growth planning',
-      'KPI dashboards and reporting',
-    ],
-  },
-];
-
-export const processSteps = [
-  {
-    step: '01',
-    title: 'Discovery',
-    description:
-      'We learn your business, audience, and goals to define a clear roadmap for your Shopify and automation stack.',
-  },
-  {
-    step: '02',
-    title: 'Build',
-    description:
-      'Our team designs and develops your store, integrations, and workflows with precision and speed.',
-  },
-  {
-    step: '03',
-    title: 'Optimize',
-    description:
-      'We refine performance, conversion paths, and automations based on real data and user behavior.',
-  },
-  {
-    step: '04',
-    title: 'Scale',
-    description:
-      'With solid foundations in place, we help you grow revenue through ongoing strategy and automation.',
   },
 ];
 
 export const whyChooseUs = [
   {
-    title: 'Shopify Specialists',
+    title: 'Shopify-First Expertise',
     description:
-      'Deep expertise in Shopify development, theme customization, and platform best practices.',
+      'Deep hands-on experience with Shopify development, optimization, and platform best practices.',
   },
   {
-    title: 'Automation-First Mindset',
+    title: 'AI & Automation Focus',
     description:
-      'We build systems that save time and reduce manual work through N8N and AI-powered workflows.',
+      'Practical AI and n8n workflows that eliminate manual work and connect your entire tech stack.',
   },
   {
-    title: 'Growth-Oriented',
+    title: 'Founder-Led Consulting',
     description:
-      'Every decision is tied to measurable outcomes — conversions, retention, and revenue growth.',
+      'Work directly with Bhavin — a consultant who understands both the technology and the business side.',
   },
   {
-    title: 'End-to-End Partner',
+    title: 'Built for Scale',
     description:
-      'From store setup to scaling, we support your entire ecommerce journey without handoffs.',
+      'Every system is designed to grow with your brand, not create more complexity as you expand.',
   },
 ];

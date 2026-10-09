@@ -7,8 +7,8 @@ import { siteConfig, pageMeta } from '../data/siteConfig';
 const contactMethods = [
   {
     icon: 'email',
-    title: 'Email Us',
-    description: 'Send us a message anytime. We respond within 24 hours.',
+    title: 'Email',
+    description: 'Send me a message anytime. I respond within 24 hours.',
     action: siteConfig.email,
     href: `mailto:${siteConfig.email}`,
     linkText: siteConfig.email,
@@ -23,8 +23,8 @@ const contactMethods = [
   },
   {
     icon: 'calendar',
-    title: 'Book a Call',
-    description: 'Schedule a free 30-minute consultation to discuss your project.',
+    title: 'Book a Strategy Call',
+    description: 'Schedule a free 30-minute call to discuss your Shopify store and goals.',
     action: 'Calendly',
     href: siteConfig.calendlyLink,
     linkText: 'Schedule on Calendly',
@@ -68,8 +68,8 @@ export default function Contact() {
 
       <PageHero
         label="Contact"
-        title="Let's Build Something Great"
-        description="Tell us about your project and we will get back to you within 24 hours with a tailored plan."
+        title="Let's Talk About Your Store"
+        description="Book a free strategy call or send a message — I'll get back to you within 24 hours."
       />
 
       <section className="section">
@@ -193,7 +193,7 @@ export default function Contact() {
                     />
                   </div>
                   <Button type="submit" className="contact-form__submit">
-                    Send Message
+                    {siteConfig.primaryCta}
                   </Button>
                 </form>
               )}
